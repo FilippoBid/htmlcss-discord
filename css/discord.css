@@ -1,6 +1,10 @@
 *{box-sizing: border-box;
 padding: 0;
 margin: 0;}
+
+h1{font-size: 3rem;}
+h2{font-size: 1rem;}
+
 a{text-decoration: none;}
 nav{margin: auto 5rem;}
 
@@ -15,8 +19,7 @@ nav div h1{color: rgb(255, 255, 255);}
 
 
 .nav{    width: 100%;
-    display: flex;
-    vertical-align: auto;}
+    display: flex;}
 .container{width: 920px;
 margin: auto  ;
 margin-bottom: 4rem;
@@ -29,6 +32,7 @@ margin: 2rem auto;}
 
 .section-pictur{margin: 1rem 0;height: 100%;;width: 60%;}
 .section-txt{margin: 1rem 0;height: 100%;;width: 40%;}
+.nav > div{align-self: auto;}
 
 
 .txtimg{width: 100%;background-color: chartreuse;height: 500px;margin: 1rem 0;flex-grow: 1;}
@@ -39,3 +43,5 @@ margin: 2rem auto;}
     background-color: aqua;margin: 1rem 0;}
 header{background-image: url(../img/jumbo.png);background-size:cover;}
 .headerlink{display: flex;justify-content: space-evenly;}
+
+.pre-foot{margin: auto;text-align: center;}
