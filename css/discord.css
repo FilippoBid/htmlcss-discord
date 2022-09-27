@@ -1,28 +1,41 @@
 *{box-sizing: border-box;
 padding: 0;
 margin: 0;}
-nav div div div{padding: 1rem; border: 2px dotted blue; height: 2rem;
-background-color: aqua;
+a{text-decoration: none;}
+nav{margin: auto 5rem;}
+
+nav div div div{padding: 1rem ;
 text-align: center;}
-.nav{
-    width: 100%;
+
+nav div h1{color: rgb(255, 255, 255);}
+
+.btt{border-radius: 3rem;padding: 1em;border: none;margin: 0 1rem;}
+
+.main-head div > div{margin-bottom: 2rem;}
+
+
+.nav{    width: 100%;
     display: flex;
-    }
+    vertical-align: auto;}
 .container{width: 920px;
-margin: auto;
-display: flex;
-flex-wrap: wrap;}
-.prior{flex-grow: 2;background-color: aqua;}
-.picture{width: 80%;
-    height: 500px;
+margin: auto  ;
+margin-bottom: 4rem;
+display: flex;}
+.prior{flex-grow: 2;}
+.main-head{width: 80%;text-align: center;
     background-color: blueviolet;
 padding: 2rem;
 margin: 2rem auto;}
-.blue{margin: 1rem 0; background-color: blue;height: 400px; padding: 2rem 0;width: 60%;}
-.rosa{margin: 1rem 0; background-color: rosybrown;height: 400px;padding: 2rem 0;width: 40%;}
+
+.section-pictur{margin: 1rem 0;height: 100%;;width: 60%;}
+.section-txt{margin: 1rem 0;height: 100%;;width: 40%;}
+
+
 .txtimg{width: 100%;background-color: chartreuse;height: 500px;margin: 1rem 0;flex-grow: 1;}
 .footrow{padding: 1rem;background-color: blueviolet;height: 400px;border: 2px dotted green;flex-grow: 1;}
 .x2{flex-grow: 2;background-color: crimson;}
 .foot{margin-top: 5px; display: flex;vertical-align: auto;width: 100%;justify-content: space-between;height: 80px;background-color: yellow;padding: 0.5rem 0;}
 .txtfoot{border: 2px dotted blue; height: 2rem;
     background-color: aqua;margin: 1rem 0;}
+header{background-image: url(../img/jumbo.png);background-size:cover;}
+.headerlink{display: flex;justify-content: space-evenly;}
