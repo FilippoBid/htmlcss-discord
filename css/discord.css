@@ -2,6 +2,8 @@
 padding: 0;
 margin: 0;}
 
+*{font-family: sans-serif;}
+
 h1{font-size: 3rem;}
 h2{font-size: 1rem;}
 
@@ -26,22 +28,30 @@ margin-bottom: 4rem;
 display: flex;}
 .prior{flex-grow: 2;}
 .main-head{width: 80%;text-align: center;
-    background-color: blueviolet;
+    
 padding: 2rem;
 margin: 2rem auto;}
+.black{color: white;background-color: rgb(29, 29, 29);} 
+.softblue{color: rgb(255, 255, 255);background-color: rgb(77, 77, 77);} 
 
 .section-pictur{margin: 1rem 0;height: 100%;;width: 60%;}
 .section-txt{margin: 1rem 0;height: 100%;;width: 40%;}
 .nav > div{align-self: auto;}
 
 
-.txtimg{width: 100%;background-color: chartreuse;height: 500px;margin: 1rem 0;flex-grow: 1;}
-.footrow{padding: 1rem;background-color: blueviolet;height: 400px;border: 2px dotted green;flex-grow: 1;}
-.x2{flex-grow: 2;background-color: crimson;}
-.foot{margin-top: 5px; display: flex;vertical-align: auto;width: 100%;justify-content: space-between;height: 80px;background-color: yellow;padding: 0.5rem 0;}
-.txtfoot{border: 2px dotted blue; height: 2rem;
-    background-color: aqua;margin: 1rem 0;}
+.txtimg{width: 100%;height: 500px;margin: 1rem 0;flex-grow: 1;}
+.footrow{padding: 1rem;height: 400px;flex-grow: 1;}
+.x2{flex-grow: 2;}
+.foot{margin-top: 5px; display: flex;vertical-align: auto;width: 100%;justify-content: space-between;height: 80px;padding: 0.5rem 0;}
+.txtfoot{ height: 2rem;margin: 1rem 0;}
 header{background-image: url(../img/jumbo.png);background-size:cover;}
 .headerlink{display: flex;justify-content: space-evenly;}
 
 .pre-foot{margin: auto;text-align: center;}
+.pre-foot-btn{width: 100%; display: inline-block;text-align: center;margin: auto;}
+
+.softgray{background-color: rgb(117, 117, 117);}
+    
+.pre-foot-backgnd{display: inline-block; background-image: url(../img/stars.svg);background-repeat: no-repeat;padding: 2rem;}
+.fa-brands .fa-twitter{height: 2rem auto;}
+.footrow div:first-of-type{color: blue;}
