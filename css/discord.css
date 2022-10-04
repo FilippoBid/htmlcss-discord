@@ -6,9 +6,10 @@ margin: 0;}
 
 h1{font-size: 3rem;}
 h2{font-size: 1rem;}
+h3{font-size: 2rem;}
 
 a{text-decoration: none;}
-nav{margin: auto 5rem;}
+nav{margin-bottom: 5rem;}
 
 nav div div div{padding: 1rem ;
 text-align: center;}
@@ -21,7 +22,8 @@ nav div h1{color: rgb(255, 255, 255);}
 
 
 .nav{    width: 100%;
-    display: flex;}
+    display: flex;
+    padding-top: 2rem;}
 .container{width: 920px;
 margin: auto  ;
 margin-bottom: 4rem;
@@ -48,10 +50,12 @@ header{background-image: url(../img/jumbo.png);background-size:cover;}
 .headerlink{display: flex;justify-content: space-evenly;}
 
 .pre-foot{margin: auto;text-align: center;}
-.pre-foot-btn{width: 100%; display: inline-block;text-align: center;margin: auto;}
+.pre-foot-btn{width: 100%; display: inline-block;text-align: center;margin: auto;margin-bottom: 5rem;}
 
-.softgray{background-color: rgb(117, 117, 117);}
+.softgray{background-color: #f6f6f6;}
+.gray{background-color:#23272a}
     
 .pre-foot-backgnd{display: inline-block; background-image: url(../img/stars.svg);background-repeat: no-repeat;padding: 2rem;}
 .fa-brands .fa-twitter{height: 2rem auto;}
-.footrow div:first-of-type{color: blue;}
+footer div div div span {color:#8ea1e1;}
+
